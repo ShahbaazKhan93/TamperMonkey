@@ -38,8 +38,8 @@ Ensure that downloading images complies with the website's terms of service and 
 // @namespace    http://tampermonkey.net/
 // @version      2.2
 // @description  Automatically downloads all JPG images from the current site as you browse, including images loaded in viewers and iframes, using original filenames.
-// @author
-// @match        *://*/*
+// @author       Shahbaz Khan
+// @match        *://*/*(add website link)
 // @grant        GM_download
 // @grant        GM_xmlhttpRequest
 // @connect      *
